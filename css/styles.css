@@ -16,7 +16,7 @@ input {
   margin-bottom: 30px;
 }
 
-.grid-container {
+.gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -moz-column-gap: 10px;

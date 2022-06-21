@@ -1,6 +1,6 @@
 @use '../utilities/' as var;
 
-.grid-container {
+.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
