@@ -3,55 +3,11 @@
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
     column-gap: 10px;
-    margin-left: 50px;
-    margin-right: auto;
-    
+    justify-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.col-1 {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr ;
-  row-gap: 20px;
-  
 
-}
-.col-2 {
-    display: grid;
-    grid-template-rows: 2fr 2fr 2fr ;
-    row-gap: 20px;
-  
-  }
-  .col-3 {
-    display: grid;
-    grid-template-rows: 2fr 2fr 2fr ;
-    row-gap: 20px;
-  
-  }
-  .col-4 {
-    display: grid;
-    grid-template-rows: 2fr 2fr 2fr ;
-    row-gap: 20px;
-  
-  }
-
-.row-1 {
-
-  grid-row-start: 1;
-  grid-row-end: 2;
- 
-}
-
-.row-2 {
-
-    grid-row-start: 2;
-  grid-row-end: 3;
-
-}
-
-.row-3 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-  
-
-}
